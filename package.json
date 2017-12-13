@@ -11,6 +11,8 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "@angular/flex-layout": "^2.0.0-beta.10-4905443",
+    "normalize.scss": "^0.1.0",
     "vue": "^2.4.2",
     "vue-router": "^2.7.0"
   },
