@@ -1,15 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="img/ico" href="./static/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/static/style/style.css">
-    <title>San Diego Tết Festival</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="img/ico" href="./static/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/static/style/style.css">
+  <title>San Diego Tết Festival</title>
+  
+  <!-- open graph meta tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta property="og:image" content="http://img.photobucket.com/albums/v337/poorboystar/rooster3_zpsrhbhtf51.png" />
+  <meta property="og:description" content="The Tết Festival is the largest Vietnamese New Year event in San Diego and the second largest event of its kind in Southern California. The Festival is one of the most anticipated annual events for the Vietnamese community in San Diego. Highlights of the festival include the Lion Dances, Miss Vietnam San Diego Pageant, Golden Voice singing competition, the Cultural Village and various other performances." />
+  <meta property="og:url" content="http://www.sdtet.com" />
+  <meta property="og:title" content="San Diego Tết Festival" />
+  
+  <!-- additional CSS -->
+
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- ***************************************** Global site tag (gtag.js) - Google Analytics ***************************************** -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109835029-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109835029-1');
+
+  </script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Google Tag Manager -->
+  <script>
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-WZ6FDF9');
+
+  </script>
+  <!-- *********************************** End Google Tag Manager ***************************************** -->
+
+
+  <!-- *********************************** Facebook Pixel Code *****************************************-->
+  <script>
+  ! function(f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function() {
+      n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '836127956568426');
+  fbq('track', 'PageView');
+
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=836127956568426&ev=PageView
+&noscript=1" />
+  </noscript>
+  <!-- ***************************************** End Facebook Pixel Code ***************************************** -->
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
