@@ -11643,8 +11643,21 @@ th {
 .sdtet-schedule-cultural-village {
   text-align: left; }
 
+html, body {
+  background-color: #F7FFF7;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif; }
+
 .sdtet-container {
   max-width: 1280px;
   margin: 0 auto; }
+
+a {
+  color: #22BCB2;
+  text-decoration: none; }
+  a:hover {
+    color: #30ACA4; }
 
 /*# sourceMappingURL=style.css.map */

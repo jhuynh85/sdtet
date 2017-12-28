@@ -3,6 +3,7 @@
     <!-- <img src="./assets/logo.png"> -->
     <navigation></navigation>
     <schedule></schedule>
+    <entertainment></entertainment>
     <pageant></pageant>
     <sponsors></sponsors>
     <vendors></vendors>
@@ -15,6 +16,7 @@
 <script>
 import Navigation from './components/navigation/navigation'
 import Schedule from './components/schedule/schedule'
+import Entertainment from './components/entertainment/entertainment'
 import Pageant from './components/pageant/pageant'
 import Sponsors from './components/sponsors/sponsors'
 import Vendors from './components/vendors/vendors'
@@ -27,6 +29,7 @@ export default {
   components: {
     Navigation,
     Schedule,
+    Entertainment,
     Pageant,
     Sponsors,
     Vendors,

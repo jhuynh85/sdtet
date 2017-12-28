@@ -1,22 +1,37 @@
 @import '../../node_modules/normalize.scss/normalize.scss';
 @import '_layout.scss';
+@import '_colors.scss';
 
 // sdtet components
 
 @import "../../src/components/navigation/_navigation.scss";
 @import "../../src/components/directions/_directions.scss";
-@import "../../src/components/entertainment/_entertainment.scss";
 @import "../../src/components/miss-vietnam/_miss-vietnam.scss";
+@import "../../src/components/entertainment/_entertainment.scss";
 @import "../../src/components/pageant/_pageant.scss";
 @import "../../src/components/schedule/_schedule.scss";
 @import "../../src/components/sponsors/_sponsors.scss";
 @import "../../src/components/vendors/_vendors.scss";
 @import "../../src/components/volunteers/_volunteers.scss";
 
-
-$sdtet-red-100: red;
-
+html,body{
+	background-color: $background-color-light;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Nunito', sans-serif;
+}
 .sdtet-container {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+a{
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover{
+		color: $link-hover-color;
+	}
 }
