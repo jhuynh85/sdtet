@@ -11617,17 +11617,27 @@ th {
 .sdtet-navigation__links {
   max-width: 50%; }
 
+.sdtet-logo {
+  height: 128px; }
+
 .sdtet-entertainment-container {
   text-align: center; }
 
 .sdtet-schedule-grid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 400px 200px 400px;
   grid-gap: 10px;
   align-items: center; }
 
+.sdtet-schedule-spacer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 50px; }
+
 .sdtet-schedule-title {
-  font-size: 1.5rem; }
+  font-size: 2rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400; }
 
 .sdtet-schedule-date {
   font-weight: 600; }
@@ -11635,7 +11645,7 @@ th {
 .sdtet-schedule-divider {
   grid-column-start: 1;
   grid-column-end: 4;
-  border-bottom: 1px solid red; }
+  border-bottom: 2px solid red; }
 
 .sdtet-schedule-main-stage {
   text-align: right; }
@@ -11650,14 +11660,26 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Nunito', sans-serif; }
 
-.sdtet-container {
-  max-width: 1280px;
-  margin: 0 auto; }
+h1 {
+  font-size: 3em; }
 
 a {
   color: #22BCB2;
   text-decoration: none; }
   a:hover {
     color: #30ACA4; }
+
+.sdtet-container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.sdtet-text-align-right {
+  text-align: right; }
+
+.sdtet-text-align-left {
+  text-align: left; }
+
+.sdtet-text-align-center {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

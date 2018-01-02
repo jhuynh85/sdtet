@@ -1,20 +1,27 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <navigation></navigation>
-    <schedule></schedule>
-    <entertainment></entertainment>
-    <pageant></pageant>
-    <sponsors></sponsors>
-    <vendors></vendors>
-    <volunteers></volunteers>
-    <directions></directions>
-    <contact></contact>
+    <v-app>
+      <v-content>
+          <navigation></navigation>
+          <carousel></carousel>
+          <schedule></schedule>
+          <entertainment></entertainment>
+          <pageant></pageant>
+          <sponsors></sponsors>
+          <vendors></vendors>
+          <volunteers></volunteers>
+          <directions></directions>
+          <contact></contact>
+      </v-content>
+    </v-app>
+
+    
   </div>
 </template>
 
 <script>
 import Navigation from './components/navigation/navigation'
+import Carousel from './components/carousel/carousel'
 import Schedule from './components/schedule/schedule'
 import Entertainment from './components/entertainment/entertainment'
 import Pageant from './components/pageant/pageant'
@@ -28,6 +35,7 @@ export default {
   name: 'app',
   components: {
     Navigation,
+    Carousel,
     Schedule,
     Entertainment,
     Pageant,

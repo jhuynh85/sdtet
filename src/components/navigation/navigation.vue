@@ -1,7 +1,7 @@
 <template>
   <div layout="row" layout-align="space-between center" class="sdtet-navigation sdtet-container">
     <div flex-none>
-      <img src="http://placehold.it/200x100" alt="Logo">
+      <img class="sdtet-logo" src="../../assets/dog_transparent.png" alt="Logo">
     </div>
     <div class="sdtet-navigation__links" flex-auto layout="row" layout-align="space-around">
       <div flex-none><a href="">Schedule</a></div>
