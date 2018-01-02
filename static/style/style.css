@@ -11621,6 +11621,10 @@ th {
   height: 128px; }
 
 .sdtet-entertainment-container {
+  padding-top: 1px;
+  color: #F7FFF7; }
+
+.sdtet-schedule-container {
   text-align: center; }
 
 .sdtet-schedule-grid {
@@ -11681,5 +11685,8 @@ a {
 
 .sdtet-text-align-center {
   text-align: center; }
+
+.sdtet-background-red {
+  background: #E3655B; }
 
 /*# sourceMappingURL=style.css.map */
