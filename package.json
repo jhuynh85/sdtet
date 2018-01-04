@@ -5,10 +5,11 @@
   "author": "alanttran <mr.alan.tran@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "concurrently \"npm run sass-watch\" \"node build/dev-server.js\"",
     "start": "npm run dev",
-    "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "build": "sass src/scss:static/style && node build/build.js",
+    "lint": "eslint --ext .js,.vue src",
+    "sass-watch": "sass --watch src/scss:static/style"
   },
   "dependencies": {
     "normalize.scss": "^0.1.0",
@@ -26,6 +27,7 @@
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
     "chalk": "^2.0.1",
+    "concurrently": "^3.5.1",
     "connect-history-api-fallback": "^1.3.0",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
