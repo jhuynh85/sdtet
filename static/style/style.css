@@ -11622,7 +11622,8 @@ th {
 
 .sdtet-entertainment-container {
   padding-top: 1px;
-  color: #F7FFF7; }
+  color: #F7FFF7;
+  padding-bottom: 50px; }
 
 .sdtet-entertainment-card {
   margin: 10px; }
