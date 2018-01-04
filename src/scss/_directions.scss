@@ -1,0 +1,27 @@
+.sdtet-directions-container {
+  text-align: center;
+  background-color: #f5ee9e;
+  padding-top: 1px;
+  width: 100%;
+}
+
+.sdtet-directions-map-container {
+  margin: 10px;
+}
+
+.sdtet-directions-text-container {
+  margin: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.sdtet-directions-text-bold {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .google-map {
+    width: 350px;
+    height: 350px;
+  }
+}
