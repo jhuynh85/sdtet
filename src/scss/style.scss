@@ -4,15 +4,15 @@
 
 // sdtet components
 
-@import "../../src/components/navigation/_navigation.scss";
-@import "../../src/components/directions/_directions.scss";
-@import "../../src/components/miss-vietnam/_miss-vietnam.scss";
-@import "../../src/components/entertainment/_entertainment.scss";
-@import "../../src/components/pageant/_pageant.scss";
-@import "../../src/components/schedule/_schedule.scss";
-@import "../../src/components/sponsors/_sponsors.scss";
-@import "../../src/components/vendors/_vendors.scss";
-@import "../../src/components/volunteers/_volunteers.scss";
+@import "_navigation.scss";
+@import "_directions.scss";
+@import "_miss-vietnam.scss";
+@import "_entertainment.scss";
+@import "_pageant.scss";
+@import "_schedule.scss";
+@import "_sponsors.scss";
+@import "_vendors.scss";
+@import "_volunteers.scss";
 
 html,body{
 	background-color: $background-color-light;
