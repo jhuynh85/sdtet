@@ -19,10 +19,12 @@ npm run build --report
 
 ```
 ## Sass
-Check out Sass [documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+Check out Sass [documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html). 
+
+On Windows, double click the sass-watcher.bat file to start it.
 
 ```
-# set up watcher for sass - go to the root directory of project, in Windows, open cmd or powershell
+# sass watcher script 
 sass --watch src/scss:static/style
 ```
 
