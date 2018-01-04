@@ -22,7 +22,7 @@ npm run build --report
 Check out Sass [documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 
 ```
-# set up watcher for sass - go to the root directory of project
+# set up watcher for sass - go to the root directory of project, in Windows, open cmd or powershell
 sass --watch src/scss:static/style
 ```
 
