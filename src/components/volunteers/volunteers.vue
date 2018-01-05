@@ -44,7 +44,7 @@
           <v-layout row>
             <v-flex md6 class="sdtet-text-align-center">
               <div class="sdtet-volunteers-form-1">
-                <a href="./download/etc/Release-of-Liability.pdf">
+                <a target="_blank" href="./static/download/Release-of-Liability.pdf">
                   <img src="../../assets/Volunteer Form.svg" alt="Consent and Release of Liability Form">
                   <div class="sdtet-text-align-center">
                     <p>
@@ -57,7 +57,7 @@
             </v-flex>
             <v-flex md6>
               <div class="sdtet-volunteers-form-2">
-                <a href="./download/etc/hours_verification.pdf">
+                <a target="_blank" href="./static/download/hours_verification.pdf">
                   <img src="../../assets/Volunteer Form.svg" alt="Hours Verification form">
                   <p>
                     <strong>OPTIONAL:</strong>
