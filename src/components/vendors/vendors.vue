@@ -2,13 +2,40 @@
 	<div class="sdtet-container">
 		<h1>Vendors</h1>
 		<div class="sdtet-vendors-container">
-			<div class="sdtet-vendors-info-container">
-				<p>Dear Prospective Vendors,</p>
-				<p>Once again the Lunar New Year Festival has come! This year, we hope to bring you another fun, successful and profitable experience during our 3-day festival. Our previous vendors have made huge profits, and we would love to have you along for the ride.</p>
-				<p>With over 10 years in the running, we have become very well-known to the San Diego community as well as our neighboring cities. Our annual festival attracts well over 20,000 people of different cultures and ethnicities, making it one of the largest Lunar New Year Festivals in Southern California.</p>
-				<p>Don't hesitate to contact us if you have any questions. We'll make sure that the upcoming Lunar New Year will be an amazing experience for you.</p>
-				<p>VAYA</p>
-			</div>
+			<v-layout>
+				<v-flex>
+					<div class="sdtet-vendors-info-container">
+						<p>Dear Prospective Vendors,</p>
+						<p>Once again the Lunar New Year Festival has come! This year, we hope to bring you another fun, successful and profitable experience during our 3-day festival. Our previous vendors have made huge profits, and we would love to have you along for the ride.</p>
+						<p>With over 10 years in the running, we have become very well-known to the San Diego community as well as our neighboring cities. Our annual festival attracts well over 20,000 people of different cultures and ethnicities, making it one of the largest Lunar New Year Festivals in Southern California.</p>
+						<p>Don't hesitate to contact us if you have any questions. We'll make sure that the upcoming Lunar New Year will be an amazing experience for you.</p>
+						<p>VAYA</p>
+					</div>
+				</v-flex>
+				<v-flex class="ml-5">
+					<h2 class="mb-4">Select your booth</h2>
+					<v-layout>
+						<div class="pa-2 sdtet-text-align-center">
+							<img src="../../assets/GameBooth.svg"><br/>
+							Game or Commercial
+						</div>
+						<div class="pa-2 sdtet-text-align-center">
+							<img src="../../assets/ArtBooth.svg"><br/>
+							Information or Art Exhibition
+						</div>
+						<div class="pa-2 sdtet-text-align-center">
+							<img src="../../assets/FoodBooth.svg"><br/>
+							Food and/or Beverage
+						</div>
+						<div class="pa-2 sdtet-text-align-center">
+							<img src="../../assets/NonProfitBooth.svg"><br/>
+							Non-Profit or Government
+						</div>
+					</v-layout>
+					
+				</v-flex>
+			</v-layout>
+			
 			<div class="sdtet-vendors-instructions-container">
 				<h4>
 					<b>Step 1 - Fill out the form and send to VAYA.</b>

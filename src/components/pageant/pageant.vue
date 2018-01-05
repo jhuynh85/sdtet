@@ -10,8 +10,8 @@
         
 
         <h1 class="sdtet-text-align-center">Pageant 2018</h1>
-        <v-layout id="contestants">
-            <v-flex v-for="contestant in contestants" lg4>
+        <v-layout id="contestants" wrap>
+            <v-flex v-for="contestant in contestants" :key="contestant.id" lg4>
                 <v-card height="500px" class="sdtet-entertainment-card">
                     <v-card-media src="http://placehold.it/300x200" height="200px">
                     </v-card-media>
@@ -38,25 +38,67 @@ export default {
     return {
       contestants: [
         {
-          firstname: 'Diana',
-          lastname: 'Pham',
-          number: 1,
-          school: 'UC San Diego',
-          bio: 'I believe that finding unique opportunities is necessary for personal growth, and I encourage everyone to challenge themselves to continuously try new things throughout their lives.'
+          firstname: 'Angie',
+          lastname: 'Hoang',
+          number: 0,
+          school: '',
+          bio: ''
         },
         {
-          firstname: 'Linh',
-          lastname: 'Huynh',
-          number: 3,
-          school: 'Grossmont College',
-          bio: 'Nếu may mắn được trao tặng danh hiệu hoa hậu Việt Nam San Diego, em sẽ cố gắng ngày càng hoàn thiện bản thân hơn nữa để góp phần tôn vinh vẻ đẹp của người phụ nữ Việt tại Mỹ- người phụ nữ đẹp trong một đất nước hiện đại nhưng vẫn giữ được nét đẹp truyền thống của Việt Nam ta.'
-        },
-        {
-          firstname: 'Tiffany',
+          firstname: 'Nikki',
           lastname: 'Luu',
-          number: 4,
-          school: 'Mt. Carmel High School',
-          bio: 'I wore my áo dài with pride, and saw many others do the same. Today, I have decided to participate in the pageant for young girls who were like me as a child and didn’t care about being Vietnamese. I want to show them that being Vietnamese is something to be proud of and embrace.'
+          number: 0,
+          school: '',
+          bio: ''
+        },
+        {
+          firstname: 'Julia',
+          lastname: 'Ta',
+          number: 0,
+          school: '',
+          bio: ''
+        },
+        {
+          firstname: 'Elizabeth',
+          lastname: 'Do',
+          number: 0,
+          school: '',
+          bio: ''
+        },
+        {
+          firstname: 'Carolynne ',
+          lastname: 'Vo',
+          number: 0,
+          school: '',
+          bio: ''
+        },
+        {
+          firstname: 'Duyen (Amy)',
+          lastname: 'Vo',
+          number: 0,
+          school: '',
+          bio: ''
+        },
+        {
+          firstname: 'Julia ',
+          lastname: 'Nguyen',
+          number: 0,
+          school: '',
+          bio: ''
+        },
+        {
+          firstname: 'Jacqueline ',
+          lastname: 'Nguyen',
+          number: 0,
+          school: '',
+          bio: ''
+        },
+        {
+          firstname: 'Ca',
+          lastname: 'Pham',
+          number: 0,
+          school: '',
+          bio: ''
         }
       ]
     }
