@@ -1,0 +1,35 @@
+.sdtet-volunteers-container {
+  padding: 1px 15px 10px 15px;
+  width: 100%;
+}
+
+.sdtet-text-red-bold {
+  font-weight: 600;
+  color: #E3655B;
+}
+
+.sdtet-volunteers-info {
+  margin: 15px;
+}
+
+.sdtet-volunteers-forms-container {
+  margin: 15px;
+}
+
+.sdtet-volunteers-form-1 {
+  display: block;
+  width: 136px;
+  margin: auto 15px auto auto;
+}
+
+.sdtet-volunteers-form-2 {
+  display: block;
+  width: 136px;
+  margin: auto auto auto 15px;
+}
+
+@media screen and (max-width: 960px) {
+  .sdtet-h1-spacer {
+    display: none;
+  }
+}
