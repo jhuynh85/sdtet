@@ -2,7 +2,7 @@
   <div class="sdtet-volunteers-container">
     <div class="sdtet-schedule-divider"></div>
     <v-layout row wrap>
-      <v-flex xs12 md6 order-md2>
+      <v-flex xs12 md7 order-md2>
         <div class="sdtet-volunteers-info">
           <h1>Volunteers</h1>
           <p>
@@ -27,7 +27,7 @@
           </div>
         </div>
       </v-flex>
-      <v-flex xs12 md6>
+      <v-flex xs12 md5>
         <div class="sdtet-volunteers-forms-container sdtet-text-align-center">
           <!-- <p><span class="navy"><b>Signups are closed!</b></span></p> -->
           <div class="sdtet-h1-spacer">
