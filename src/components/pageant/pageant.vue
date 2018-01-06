@@ -1,7 +1,7 @@
 <template>
     <div class="sdtet-container">
         <h1 class="sdtet-text-align-center">Miss Vietnam of San Diego™</h1>
-        <div class="mb-5 ml-5 mr-5">
+        <div class="ml-5 mr-5">
           <img style="float: right" src="../../assets/MissVietnam_Logo.png">
           <p>The Miss Vietnam San Diego™ is established with the primary focus of elevating the Vietnamese-American female as a national symbol of beauty and pride captured internally and externally through her poise, grace, intellectual strength, and individuality.</p>
           <p>The pageant also serves to promote the Vietnamese culture by retaining the functions of the traditional dress ao dai, developing teamwork through cultural dances, and directing questions to educate the audience on the perception of culture via the eyes of Vietnamese females today. Last but definitely not least, its third purpose is to bring people together, females who participate, family and friends who watch, and all others involved in its formation, fostering a stronger sense of community.</p>
@@ -9,7 +9,7 @@
         </div>
         
         <h1 class="sdtet-text-align-center">Pageant 2018</h1>
-        <v-container>
+        <v-container mb-4>
           <v-layout id="contestants" row wrap>
               <v-flex v-for="contestant in contestants" :key="contestant.id" xs12 sm6 md4 lg4>
                   <v-card height="500px" class="sdtet-entertainment-card">

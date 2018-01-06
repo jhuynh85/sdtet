@@ -1,5 +1,5 @@
 <template>
-  <div class="sdtet-container sdtet-volunteers-container">
+  <div class="sdtet-container ml-5 mr-5">
     <div class="sdtet-schedule-divider"></div>
     <v-layout row wrap>
       <v-flex xs12 md6 order-md2>
