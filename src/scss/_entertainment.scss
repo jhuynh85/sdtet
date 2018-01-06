@@ -7,10 +7,12 @@
 
 .sdtet-entertainment-card {
   margin: 10px;
+  height: 475px !important;
 }
 
 @media screen and (max-width: 960px) {
   .sdtet-entertainment-card {
     min-width: 335px;
+    height: auto !important;
   }
 }
