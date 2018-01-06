@@ -1,8 +1,8 @@
 <template>
-  <div class="sdtet-volunteers-container">
+  <div class="sdtet-container sdtet-volunteers-container">
     <div class="sdtet-schedule-divider"></div>
     <v-layout row wrap>
-      <v-flex xs12 md7 order-md2>
+      <v-flex xs12 md6 order-md2>
         <div class="sdtet-volunteers-info">
           <h1>Volunteers</h1>
           <p>
@@ -27,7 +27,7 @@
           </div>
         </div>
       </v-flex>
-      <v-flex xs12 md5>
+      <v-flex xs12 md6>
         <div class="sdtet-volunteers-forms-container sdtet-text-align-center">
           <!-- <p><span class="navy"><b>Signups are closed!</b></span></p> -->
           <div class="sdtet-h1-spacer">
@@ -42,16 +42,14 @@
           <br>
           <br>
           <v-layout row>
-            <v-flex md6 class="sdtet-text-align-center">
+            <v-flex md6>
               <div class="sdtet-volunteers-form-1">
                 <a target="_blank" href="./static/download/Release-of-Liability.pdf">
                   <img src="../../assets/Volunteer Form.svg" alt="Consent and Release of Liability Form">
-                  <div class="sdtet-text-align-center">
-                    <p>
-                      <strong>REQUIRED:</strong>
-                      <br> Consent and Release of Liability Form
-                    </p>
-                  </div>
+                  <p>
+                    <strong>REQUIRED:</strong>
+                    <br> Consent and Release of Liability Form
+                  </p>
                 </a>
               </div>
             </v-flex>
