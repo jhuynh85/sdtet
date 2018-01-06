@@ -21,11 +21,6 @@ npm run build --report
 ## Sass
 Check out Sass [documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html). 
 
-On Windows, double click the sass-watcher.bat file to start it.
-
-```
-# sass watcher script 
-sass --watch src/scss:static/style
-```
+Sass --watch should run when you use npm run dev
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
