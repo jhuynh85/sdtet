@@ -1,6 +1,6 @@
 <template>
 	<div class="sdtet-schedule-container sdtet-container">
-		<h1>Event Schedule</h1>
+		<h1 id="schedule">Event Schedule</h1>
 		<p>Events and times can change without notice</p>
 		<div layout="row" layout-align="center">
 			<div class="sdtet-schedule-grid">

@@ -1,5 +1,10 @@
 .sdtet-navigation__links{
 	max-width: 50%;
+	font-size: 16px;
+
+	a{
+		color: $link-color !important;
+	}
 }
 .sdtet-logo{
 	height: 128px;

@@ -1,10 +1,10 @@
 <template>
   <div class="sdtet-container">
     <div class="ml-5 mr-5">
-      <div class="sdtet-schedule-divider"></div>
+      <div class="sdtet-divider"></div>
       <v-layout row wrap>
         <v-flex xs12 md5 lg5>
-          <h1>Sponsors</h1>
+          <h1 id="sponsors">Sponsors</h1>
           <p>
             <b>The Sponsorship Application: </b>
             <a target="_blank" href="download/VAYA_Sponsorship_2018_v8.pdf">download</a>
@@ -43,13 +43,10 @@
         </v-flex>
         <v-flex xs12 md7 lg7 class="sdtet-text-align-center">
           <h1 class="sdtet-h1-spacer">&nbsp;</h1>
-          <h2>Thank you 2017 Sponsors!</h2>
+          <h2>Thank you 2018 Sponsors!</h2>
           <v-layout row wrap>
-            <img class="ma-2" src="http://placehold.it/300x150">
-            <img class="ma-2" src="http://placehold.it/300x150">
-            <img class="ma-2" src="http://placehold.it/300x150">
-            <img class="ma-2" src="http://placehold.it/300x150">
-            <img class="ma-2" src="http://placehold.it/300x150">
+            <img class="ma-3" src="../../assets/sponsors/vulcan-materials.png" style="width: 300px">
+            <img class="ma-3" src="../../assets/sponsors/Crab-Hut-Logo-Main.png">
           </v-layout>
         </v-flex>
 

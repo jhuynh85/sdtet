@@ -1,6 +1,6 @@
 <template>
 <v-dialog v-model="dialog" max-width="650">
-	<v-btn class="sdtet-button-height-auto" outline color="teal"  slot="activator">
+	<v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal"  slot="activator">
           <div class="pa-2 sdtet-text-align-center">
                 <img src="../../../assets/ArtBooth.svg"><br/>
                 Information or Art Booth
@@ -26,7 +26,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <input class="form-control" type="text" name="os0" maxlength="200" required>
+                                                <input class="sdtet-form-control" type="text" name="os0" maxlength="200" required>
                                             </td>
                                         </tr>
                                         <tr>
@@ -71,7 +71,7 @@
 		</v-card-text>
 		<v-card-actions>
 			<v-spacer></v-spacer>
-			<v-btn color="green darken-1" flat @click.native="dialog = false">Close</v-btn>
+			<v-btn color="teal" flat @click.native="dialog = false">Close</v-btn>
 		</v-card-actions>
 	</v-card>
 </v-dialog>	

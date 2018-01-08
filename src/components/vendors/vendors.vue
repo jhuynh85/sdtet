@@ -1,6 +1,7 @@
 <template>
     <div class="sdtet-container">
-        <h1>Vendors</h1>
+        <div class="sdtet-divider"></div>
+        <h1 id="vendors">Vendors</h1>
         <div class="sdtet-vendors-container">
             <v-layout>
                 <v-flex>
@@ -18,10 +19,14 @@
                 <v-flex class="ml-5">
                     <h2 class="mb-4">Select your booth</h2>
                     <v-layout wrap>
-                        <GameCommercialBooth></GameCommercialBooth>
-                        <InfoArtBooth></InfoArtBooth>
-                        <FoodBeverageBooth></FoodBeverageBooth>
-                        <NonProfitGovBooth></NonProfitGovBooth>
+                        <v-flex lg6>
+                            <GameCommercialBooth></GameCommercialBooth>
+                        </v-flex>
+                        <v-flex lg6><InfoArtBooth></InfoArtBooth></v-flex>
+                        <v-flex lg6><FoodBeverageBooth></FoodBeverageBooth></v-flex>
+                        <v-flex lg6><NonProfitGovBooth></NonProfitGovBooth></v-flex>                      
+                        
+                        
                     </v-layout>
                     
                 </v-flex>

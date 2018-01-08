@@ -1,11 +1,12 @@
 <template>
   <div class="sdtet-container">
+
     <div class="ml-5 mr-5">
-      <div class="sdtet-schedule-divider"></div>
+      <div class="sdtet-divider"></div>
       <v-layout row wrap>
         <v-flex xs12 md6 order-md2>
           <div class="sdtet-volunteers-info">
-            <h1>Volunteers</h1>
+            <h1 id="volunteers">Volunteers</h1>
             <p>
               <strong>We are currently looking for volunteers!</strong>
             </p>
@@ -38,32 +39,28 @@
               <span class="sdtet-text-red-bold">Signup or view our open shifts by clicking SIGN UP NOW below!</span>
             </p>
             <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdzg7U6v0FZ-BhVJlcWHFHlh7yaQ5F2BUobbzqLF2FqaUMG2g/viewform">
-              <v-btn round outline color="primary" dark>Sign up now!</v-btn>
+              <v-btn round color="teal" dark>Sign up now!</v-btn>
             </a>
             <br>
             <br>
             <v-layout row>
               <v-flex md6>
-                <div class="sdtet-volunteers-form-1">
-                  <a target="_blank" href="./static/download/Release-of-Liability.pdf">
-                    <img src="../../assets/Volunteer.svg" alt="Consent and Release of Liability Form">
-                    <p>
-                      <strong>REQUIRED:</strong>
-                      <br> Consent and Release of Liability Form
-                    </p>
-                  </a>
-                </div>
+                  <v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal" target="_blank" href="./static/download/Release-of-Liability.pdf">
+                      <div class="pa-2 sdtet-text-align-center">
+                          <img src="../../assets/Volunteer.svg" alt="Consent and Release of Liability Form"><br/>
+                          <strong>required</strong><br/>
+                          Consent & Release of Liability Form
+                      </div>
+                  </v-btn>
               </v-flex>
               <v-flex md6>
-                <div class="sdtet-volunteers-form-2">
-                  <a target="_blank" href="./static/download/hours_verification.pdf">
-                    <img src="../../assets/Volunteer.svg" alt="Hours Verification form">
-                    <p>
-                      <strong>OPTIONAL:</strong>
-                      <br> Hours Verification Form
-                    </p>
-                  </a>
-                </div>
+                <v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal" target="_blank" href="./static/download/hours_verification.pdf">
+                  <div class="pa-2 sdtet-text-align-center">
+                      <img src="../../assets/Volunteer.svg" alt="Hours Verification form"><br/>
+                      <strong>optional: </strong><br/>
+                      Hours Verification Form
+                  </div>
+                </v-btn>
               </v-flex>
             </v-layout>
           </div>

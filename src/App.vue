@@ -11,7 +11,6 @@
           <vendors></vendors>
           <volunteers></volunteers>
           <directions></directions>
-          <contact></contact>
       </v-content>
     </v-app>
 

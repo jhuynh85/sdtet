@@ -1,6 +1,6 @@
 <template>
    <v-dialog v-model="dialog"  max-width="650">
-      <v-btn class="sdtet-button-height-auto" outline color="teal"  slot="activator">
+      <v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal"  slot="activator">
           <div class="pa-2 sdtet-text-align-center">
                 <img src="../../../assets/FoodBooth.svg"><br/>
                 Food and/or Beverage
@@ -51,7 +51,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <select id="exclusive-select" name="os0">
+                                    <select id="exclusive-select" class="sdtet-form-control" name="os0">
                                         <option value="Food Booth">Food Booth $1,000.00 USD</option>
                                         <option value="Food Booth w/ one exclusive item">Food Booth w/ one exclusive item $1,150.00 USD</option>
                                         <option value="Food Booth w/ two exclusive items">Food Booth w/ two exclusive items $1,300.00 USD</option>
@@ -61,11 +61,11 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <input type="hidden" name="on1" value="Business Name">Business Name*</td>
+                                    <input class="sdtet-form-control" type="hidden" name="on1" value="Business Name">Business Name*</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input class="form-control" type="text" name="os1" maxlength="200" required>
+                                    <input class="sdtet-form-control" type="text" name="os1" maxlength="200" required>
                                 </td>
                             </tr>
                         </table>
@@ -75,7 +75,7 @@
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </v-flex>
-                <v-flex sm5 md5 lg5>
+                <v-flex sm5 md5 lg5 style="padding-left: 25px;">
                     <h4 class="header ">or... Check Payment</h4>
                     <p>Please write two or three checks payable to VAYA. Make sure to include your business name so we can match your payment to your application.</p>
                     <ul>
@@ -93,7 +93,7 @@
             </v-card-text>
             <v-card-actions>
                <v-spacer></v-spacer>
-               <v-btn color="green darken-1" flat @click.native="dialog = false">Close</v-btn>
+               <v-btn color="teal" flat @click.native="dialog = false">Close</v-btn>
             </v-card-actions>
          </v-card>
       </v-dialog> 
@@ -111,9 +111,5 @@ export default {
 </script>
 
 <style type="text/css">
-    .sdtet-button-height-auto{
-        height: auto !important;
-        border: none !important;
-        color: #22BCB2 !important;
-    }
+    
 </style>

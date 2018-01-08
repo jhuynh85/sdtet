@@ -1,7 +1,7 @@
 <template>
   <div class="sdtet-background-red sdtet-entertainment-container">
     <div class="sdtet-container">
-      <h1 class="sdtet-text-align-center">Entertainment</h1>
+      <h1 id="entertainment" class="sdtet-text-align-center">Entertainment</h1>
       <p class="sdtet-text-align-center">Would you like to be part of our entertainment program? Apply below!</p>
 
       <v-layout row wrap>
@@ -16,8 +16,7 @@
               why not bring yourselves to our state and wow us for the new year!</div>
             </v-card-title>
             <v-card-actions>
-              <v-btn flat color="orange">Share</v-btn>
-              <v-btn flat color="orange">Explore</v-btn>
+              <v-btn href="https://goo.gl/forms/874ic4FuKK4LEUMC3" target="_blank" block outline round color="teal" dark>Sign up!</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -36,8 +35,7 @@
               </div>
             </v-card-title>
             <v-card-actions>
-              <v-btn flat color="orange">Share</v-btn>
-              <v-btn flat color="orange">Explore</v-btn>
+              <!-- <v-btn flat color="orange">Share</v-btn> -->
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -55,8 +53,7 @@
               </div>
             </v-card-title>
             <v-card-actions>
-              <v-btn flat color="orange">Share</v-btn>
-              <v-btn flat color="orange">Explore</v-btn>
+              <v-btn href="https://goo.gl/forms/4A92bduNRSC9pddo2" target="_blank" block outline round color="teal" dark>Sign up!</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>

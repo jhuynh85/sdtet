@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "concurrently \"npm run sass-watch\" \"node build/dev-server.js\"",
     "start": "npm run dev",
-    "build": "sass src/scss:static/style && node build/build.js",
+    "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "sass-watch": "sass --watch src/scss:static/style"
   },

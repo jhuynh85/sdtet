@@ -1,6 +1,6 @@
 <template>
     <div class="sdtet-container">
-        <h1 class="sdtet-text-align-center">Miss Vietnam of San Diego™</h1>
+        <h1 id="pageant" class="sdtet-text-align-center">Miss Vietnam of San Diego™</h1>
         <div class="ml-5 mr-5">
           <img style="float: right" src="../../assets/MissVietnam_Logo.png">
           <p>The Miss Vietnam San Diego™ is established with the primary focus of elevating the Vietnamese-American female as a national symbol of beauty and pride captured internally and externally through her poise, grace, intellectual strength, and individuality.</p>
@@ -23,7 +23,7 @@
                         </div>
                       </v-card-title>
                       <v-card-actions>
-                        <v-btn flat color="pink">Vote for me!</v-btn>
+                        <!-- <v-btn flat color="pink">Vote for me!</v-btn> -->
                       </v-card-actions>
                   </v-card>
               </v-flex>

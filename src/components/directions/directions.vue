@@ -1,7 +1,7 @@
 <template>
   <div class="sdtet-directions-container">
     <div class="sdtet-text-align-center">
-      <h1>Directions & Contact Info</h1>
+      <h1 id="directions">Directions & Contact Info</h1>
       Would you like to be a part of our entertainment program? Apply below!
     </div>
     <v-container fluid>
@@ -46,13 +46,18 @@
               <a href="mailto:info@vietfederationsd.org">info@vietfederationsd.org</a>
               <br>
               <br>
-              <a href="#">
-                <img src="../../assets/f.svg" alt="Facebook icon" />
-              </a>
+              <a href="https://www.facebook.com/sandiegotetfestival/" target="_blank">
+                <img height="30px" src="../../assets/f.svg" alt="Facebook icon" />
+              </a><br/><br/>
+              <p>&copy; 2018 San Diego Tet Festival</p>
             </div>
+
           </div>
+
         </v-flex>
+
       </v-layout>
+
     </v-container>
   </div>
 </template>
