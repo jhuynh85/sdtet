@@ -1,11 +1,27 @@
-.sdtet-navigation__links{
-	max-width: 50%;
-	font-size: 16px;
-
-	a{
-		color: $link-color !important;
-	}
+.sdtet-navigation__links {
+	margin-right: 15px;
+  max-width: 50%;
+  font-size: 16px;
+  a {
+    color: $link-color !important;
+  }
 }
-.sdtet-logo{
-	height: 128px;
+
+.sdtet-navigation-menu {
+	display: none;
+	margin-right: 30px;
+}
+
+.sdtet-logo {
+  height: 128px;
+}
+
+@media screen and (max-width: 960px) {
+  .sdtet-navigation__links {
+		display: none;
+	}
+
+	.sdtet-navigation-menu {
+		display: block;
+	}
 }

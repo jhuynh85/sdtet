@@ -2,7 +2,6 @@
   <div class="sdtet-directions-container">
     <div class="sdtet-text-align-center">
       <h1 id="sdtet-contact-section">Directions & Contact Info</h1>
-      Would you like to be a part of our entertainment program? Apply below!
     </div>
     <v-container fluid>
       <v-layout row wrap>
