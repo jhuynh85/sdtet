@@ -10,7 +10,7 @@
       <div flex-none><a href="#sdtet-vendors-section" v-smooth-scroll>Vendors</a></div>
       <div flex-none><a href="#sdtet-volunteers-section" v-smooth-scroll>Volunteers</a></div>
       <div flex-none><a href="#sdtet-contact-section" v-smooth-scroll>Contact</a></div>
-      <div flex-none><a href="#sdtet-donate-section" v-smooth-scroll>Donate</a></div>
+      <div flex-none><a href="https://www.paypal.com/fundraiser/charity/1440775" target="_blank">Donate</a></div>
     </div>
   </div>
 </template>
