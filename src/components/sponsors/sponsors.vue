@@ -45,8 +45,15 @@
           <h1 class="sdtet-h1-spacer">&nbsp;</h1>
           <h2>Thank you 2018 Sponsors!</h2>
           <v-layout row wrap>
-            <img class="ma-3" src="../../assets/sponsors/vulcan-materials.png" style="width: 300px">
+            <div flex="100" class="sdtet-text-align-center">
+              <img  class="ma-3" src="../../assets/sponsors/barona_logo.png">
+            </div>
+            
+            <img class="ma-3" src="../../assets/sponsors/vulcan-materials.png" style="width: 200px">
             <img class="ma-3" src="../../assets/sponsors/Crab-Hut-Logo-Main.png">
+            <img class="ma-3" src="../../assets/sponsors/VNTV.png">
+            <img class="ma-3" src="../../assets/sponsors/wells_fargo.png">
+            <img class="ma-3" src="../../assets/sponsors/Seal_of_San_Diego_County,_California.png" style="height: 150px">
           </v-layout>
         </v-flex>
 

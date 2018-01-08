@@ -87,12 +87,8 @@
 			  	<div class="sdtet-schedule-date">5:00 PM</div>
 			  	<div class="sdtet-schedule-cultural-village"></div>
 
-			  	<div class="sdtet-schedule-main-stage">Miss Vietnam Opening Dance</div>
+			  	<div class="sdtet-schedule-main-stage">Miss Vietnam Pageant <br/>w/ Thanh Hà & Lai Anh Tú</div>
 			  	<div class="sdtet-schedule-date">5:30 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
-
-			  	<div class="sdtet-schedule-main-stage">TBA</div>
-			  	<div class="sdtet-schedule-date">7:30 PM</div>
 			  	<div class="sdtet-schedule-cultural-village"></div>
 
 			  	<div class="sdtet-schedule-main-stage">Miss Vietnam Pageant Winners</div>
