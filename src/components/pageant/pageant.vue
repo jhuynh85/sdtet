@@ -1,5 +1,5 @@
 <template>
-    <div class="sdtet-container">
+    <div id="sdtet-pageant-section" class="sdtet-container">
         <h1 class="sdtet-text-align-center">Miss Vietnam of San Diego™</h1>
         <div class="ml-5 mr-5">
           <img style="float: right" src="../../assets/MissVietnam_Logo.png">

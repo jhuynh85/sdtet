@@ -4,13 +4,13 @@
       <img class="sdtet-logo" src="../../assets/dog_transparent.png" alt="Logo">
     </div>
     <div class="sdtet-navigation__links" flex-auto layout="row" layout-align="space-around">
-      <div flex-none><a href="">Schedule</a></div>
-      <div flex-none><a href="">Pageant</a></div>
-      <div flex-none><a href="">Sponsors</a></div>
-      <div flex-none><a href="">Vendors</a></div>
-      <div flex-none><a href="">Volunteers</a></div>
-      <div flex-none><a href="">Contact</a></div>
-      <div flex-none><a href="">Donate</a></div>
+      <div flex-none><a href="#sdtet-schedule-section" v-smooth-scroll>Schedule</a></div>
+      <div flex-none><a href="#sdtet-pageant-section" v-smooth-scroll>Pageant</a></div>
+      <div flex-none><a href="#sdtet-sponsors-section" v-smooth-scroll>Sponsors</a></div>
+      <div flex-none><a href="#sdtet-vendors-section" v-smooth-scroll>Vendors</a></div>
+      <div flex-none><a href="#sdtet-volunteers-section" v-smooth-scroll>Volunteers</a></div>
+      <div flex-none><a href="#sdtet-contact-section" v-smooth-scroll>Contact</a></div>
+      <div flex-none><a href="#sdtet-donate-section" v-smooth-scroll>Donate</a></div>
     </div>
   </div>
 </template>

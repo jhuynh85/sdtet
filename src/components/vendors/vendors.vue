@@ -1,5 +1,5 @@
 <template>
-    <div class="sdtet-container">
+    <div id="sdtet-vendors-section" class="sdtet-container">
         <h1>Vendors</h1>
         <div class="sdtet-vendors-container">
             <v-layout>
