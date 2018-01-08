@@ -1,5 +1,5 @@
 <template>
-	<div class="sdtet-container">
+	<div id="sdtet-contact-section" class="sdtet-container">
 		<h1>Contact Us</h1>
 		<div class="row m-b-lg">
                 <div class="col-lg-3 col-lg-offset-3">
