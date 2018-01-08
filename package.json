@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "concurrently \"npm run sass-watch\" \"node build/dev-server.js\"",
     "start": "npm run dev",
-    "build": "node build/build.js",
+    "build": "sass src/scss/style.scss static/style/style.css && node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "sass-watch": "sass --watch src/scss:static/style"
   },
@@ -15,6 +15,7 @@
     "normalize.scss": "^0.1.0",
     "vue": "^2.5.13",
     "vue-router": "^2.7.0",
+    "vue-smooth-scroll": "^1.0.13",
     "vuetify": "^0.17.6"
   },
   "devDependencies": {

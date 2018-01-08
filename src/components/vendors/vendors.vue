@@ -1,7 +1,7 @@
 <template>
-    <div class="sdtet-container">
+    <div id="sdtet-vendors-section" class="sdtet-container">
         <div class="sdtet-divider"></div>
-        <h1 id="vendors">Vendors</h1>
+        <h1>Vendors</h1>
         <div class="sdtet-vendors-container">
             <v-layout>
                 <v-flex>
