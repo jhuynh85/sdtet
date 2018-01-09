@@ -43,23 +43,29 @@
             <br>
             <br>
             <v-layout row>
-              <v-flex md6>
-                  <v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal" target="_blank" href="./static/download/Release-of-Liability.pdf">
-                      <div class="pa-2 sdtet-text-align-center">
-                          <img src="../../assets/Volunteer.svg" alt="Consent and Release of Liability Form"><br/>
-                          <strong>required</strong><br/>
-                          Consent & Release of Liability Form
-                      </div>
+              <v-flex md6>                
+                  <v-btn class="sdtet-button-flat-button sdtet-wrap-text sdtet-volunteers-form-1" flat color="teal" target="_blank"
+                    href="./static/download/Release-of-Liability.pdf">
+                    <div class="sdtet-text-align-center">
+                      <img src="../../assets/Volunteer.svg" alt="Consent and Release of Liability Form">
+                      <br/>
+                      <strong>required:</strong>
+                      <br/> Consent & Release<br/> of Liability Form
+                    </div>
                   </v-btn>
               </v-flex>
               <v-flex md6>
-                <v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal" target="_blank" href="./static/download/hours_verification.pdf">
-                  <div class="pa-2 sdtet-text-align-center">
-                      <img src="../../assets/Volunteer.svg" alt="Hours Verification form"><br/>
-                      <strong>optional: </strong><br/>
-                      Hours Verification Form
-                  </div>
-                </v-btn>
+                <div>
+                  <v-btn class="sdtet-button-flat-button sdtet-wrap-text sdtet-volunteers-form-2" flat color="teal" target="_blank"
+                    href="./static/download/hours_verification.pdf">
+                    <div class="sdtet-text-align-center sdtet-form-text">
+                      <img src="../../assets/Volunteer.svg" alt="Hours Verification form">
+                      <br/>
+                      <strong>optional: </strong>
+                      <br/> Hours Verification<br/> Form
+                    </div>
+                  </v-btn>
+                </div>
               </v-flex>
             </v-layout>
           </div>
