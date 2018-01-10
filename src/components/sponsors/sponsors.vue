@@ -1,6 +1,6 @@
 <template>
   <div id="sdtet-sponsors-section" class="sdtet-container">
-    <div class="ml-5 mr-5">
+    <div class="ml-5 mr-5 mb-5">
       <div class="sdtet-divider"></div>
       <v-layout row wrap>
         <v-flex xs12 md5 lg5>
