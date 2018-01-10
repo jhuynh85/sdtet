@@ -3,8 +3,8 @@
         <div class="sdtet-divider"></div>
         <h1>Vendors</h1>
         <div class="sdtet-vendors-container">
-            <v-layout>
-                <v-flex>
+            <div layout="row">
+                <div flex="auto">
                     <div class="sdtet-vendors-info-container">
                         <p>Dear Prospective Vendors,</p>
                         <p>Once again the Lunar New Year Festival has come! This year, we hope to bring you another fun, successful and profitable experience during our 3-day festival. Our previous vendors have made huge profits, and we would love to have you along for the ride.</p>
@@ -15,8 +15,8 @@
                             <a href="mailto:vendor@sdtet.com">vendor@sdtet.com</a>
                         </p>
                     </div>
-                </v-flex>
-                <v-flex class="ml-5">
+                </div>
+                <div flex="auto" class="ml-5">
                     <h2 class="mb-4">Select your booth</h2>
                     <v-layout wrap>
                         <v-flex lg6>
@@ -29,8 +29,8 @@
                         
                     </v-layout>
                     
-                </v-flex>
-            </v-layout>
+                </div>
+            </div>
         </div>
     </div>
 </template>

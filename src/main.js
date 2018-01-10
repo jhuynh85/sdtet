@@ -5,7 +5,10 @@ import Vuetify from 'vuetify'
 import App from './App'
 import router from './router'
 import vueSmoothScroll from 'vue-smooth-scroll'
+import 'babel-polyfill'
+import es6Promise from 'es6-promise'
 
+es6Promise.polyfill()
 Vue.config.productionTip = false
 Vue.use(vueSmoothScroll)
 Vue.use(Vuetify)

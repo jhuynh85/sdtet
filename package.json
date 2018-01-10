@@ -12,6 +12,8 @@
     "sass-watch": "sass --watch src/scss:static/style"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "es6-promise": "^4.2.2",
     "normalize.scss": "^0.1.0",
     "vue": "^2.5.13",
     "vue-router": "^2.7.0",

@@ -2,8 +2,11 @@
 	text-align: center;
 }
 .sdtet-schedule-grid{
+	display: -ms-grid;
 	display: grid;
-	grid-template-columns: 400px 200px 400px;
+	-ms-grid-columns: 400px 200px 400px;	
+	grid-template-columns: 400px 200px 400px;	
+	-ms-grid-rows: 100px 10px 100px;
 	grid-gap: 10px;
 	align-items: center;
 
@@ -11,6 +14,8 @@
 .sdtet-schedule-spacer{
 	grid-column-start: 1;
 	grid-column-end: 4;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 3;
 	height: 50px;
 }
 .sdtet-schedule-title{
@@ -25,6 +30,8 @@
 .sdtet-schedule-divider{
 	grid-column-start: 1;
 	grid-column-end: 4;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 3;
 	border-bottom: 2px solid red;
 }
 
