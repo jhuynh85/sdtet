@@ -3,7 +3,7 @@
 	<v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal"  slot="activator">
           <div class="pa-2 sdtet-text-align-center">
                 <img src="../../../assets/ArtBooth.svg"><br/>
-                Information or Art Booth
+                Information or<br>Art Booth
             </div>
       </v-btn>
 
