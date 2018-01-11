@@ -1,6 +1,6 @@
 <template>
   <div id="sdtet-sponsors-section" class="sdtet-container">
-    <div class="ml-5 mr-5">
+    <div class="ml-5 mr-5 mb-5">
       <div class="sdtet-divider"></div>
       <v-layout row wrap>
         <v-flex xs12 md5 lg5>
@@ -39,21 +39,18 @@
             feel free to contact us should you have any further inquiries about our
             festival.</p>
           <p>VAYA</p>
-
         </v-flex>
+
         <v-flex xs12 md7 lg7 class="sdtet-text-align-center">
           <h1 class="sdtet-h1-spacer">&nbsp;</h1>
           <h2>Thank you 2018 Sponsors!</h2>
-          <v-layout row wrap>
-            <div flex="100" class="sdtet-text-align-center">
-              <img  class="ma-3" src="../../assets/sponsors/barona_logo.png">
-            </div>
-            
-            <img class="ma-3" src="../../assets/sponsors/vulcan-materials.png" style="width: 200px">
+          <v-layout class="sdtet-sponsors-logos-container" row wrap justify-space-around>
+            <img class="ma-3" src="../../assets/sponsors/barona_logo.png">
+            <img class="ma-3" src="../../assets/sponsors/vulcan-materials.png">
             <img class="ma-3" src="../../assets/sponsors/Crab-Hut-Logo-Main.png">
             <img class="ma-3" src="../../assets/sponsors/VNTV.png">
             <img class="ma-3" src="../../assets/sponsors/wells_fargo.png">
-            <img class="ma-3" src="../../assets/sponsors/Seal_of_San_Diego_County,_California.png" style="height: 150px">
+            <img class="ma-3" src="../../assets/sponsors/Seal_of_San_Diego_County,_California.png" style="height: 175px;">
           </v-layout>
         </v-flex>
 
