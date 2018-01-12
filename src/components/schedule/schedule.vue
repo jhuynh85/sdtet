@@ -10,7 +10,7 @@
 			  	<div class="sdtet-schedule-title sdtet-text-align-right ">Main Stage</div>
 			  	<div class="sdtet-schedule-date">FRIDAY 02.16.18</div>
 			  	<div class="sdtet-schedule-title sdtet-text-align-left ">Cultural Village</div>
-			  	<div class="sdtet-schedule-divider"></div>
+			  	<div class="sdtet-schedule-divider">Tet Music</div>
 
 			  	<div class="sdtet-schedule-main-stage">Festival Opens - Legendary Lion Dance</div>
 			  	<div class="sdtet-schedule-date">5:00 PM</div>
@@ -25,8 +25,12 @@
 			  	<div class="sdtet-schedule-cultural-village"></div>
 
 			  	<div class="sdtet-schedule-main-stage">B-Boy Battle</div>
+			  	<div class="sdtet-schedule-date">6:30 PM</div>
+			  	<div class="sdtet-schedule-cultural-village">Legendary Lion dance </div>
+
+			  	<div class="sdtet-schedule-main-stage">B-Boy Battle</div>
 			  	<div class="sdtet-schedule-date">7:00 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Live Music & Traditional Singers</div>
 
 			  	<div class="sdtet-schedule-main-stage">Van Kiep Lion Dance</div>
 			  	<div class="sdtet-schedule-date">7:30 PM</div>
@@ -44,7 +48,7 @@
 			  	<div class="sdtet-schedule-date">10:00 PM</div>
 			  	<div class="sdtet-schedule-cultural-village">Festival Closes</div>
 				
-			<!-- Saturday -->
+			    <!-- Saturday -->
 				<div class="sdtet-schedule-spacer"></div>
 			  	<div class="sdtet-schedule-title sdtet-text-align-right">Main Stage</div>
 			  	<div class="sdtet-schedule-date">SATURDAY 02.17.18</div>
@@ -61,15 +65,15 @@
 
 			  	<div class="sdtet-schedule-main-stage">Firecrackers</div>
 			  	<div class="sdtet-schedule-date">1:00 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Royal Procession (Quân Vương Hoàng Hậu)</div>
 
 			  	<div class="sdtet-schedule-main-stage">Hoa Nhiem Lion Dance & Traditional</div>
 			  	<div class="sdtet-schedule-date">1:05 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Martial Arts</div>
 
 			  	<div class="sdtet-schedule-main-stage">TBA</div>
 			  	<div class="sdtet-schedule-date">2:00 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Children’s Programs (Chương Trình Thiếu Nhi)</div>
 
 			  	<div class="sdtet-schedule-main-stage">Southern Seas Lion Dance</div>
 			  	<div class="sdtet-schedule-date">3:00 PM</div>
@@ -79,9 +83,13 @@
 			  	<div class="sdtet-schedule-date">3:30 PM</div>
 			  	<div class="sdtet-schedule-cultural-village"></div>
 
+			  	<div class="sdtet-schedule-main-stage">Mystique Band</div>
+			  	<div class="sdtet-schedule-date">4:00 PM</div>
+			  	<div class="sdtet-schedule-cultural-village">Lion Dance </div>
+
 			  	<div class="sdtet-schedule-main-stage">Traditional Dance</div>
 			  	<div class="sdtet-schedule-date">4:30 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Entertainments/Dancing </div>
 
 			  	<div class="sdtet-schedule-main-stage">Legendary Lion Dance</div>
 			  	<div class="sdtet-schedule-date">5:00 PM</div>
@@ -89,7 +97,7 @@
 
 			  	<div class="sdtet-schedule-main-stage">Miss Vietnam Pageant <br/>w/ Thanh Hà & Lai Anh Tú</div>
 			  	<div class="sdtet-schedule-date">5:30 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Live Music & Traditional singers</div>
 
 			  	<div class="sdtet-schedule-main-stage">Miss Vietnam Pageant Winners</div>
 			  	<div class="sdtet-schedule-date">9:30 PM</div>
@@ -99,7 +107,7 @@
 			  	<div class="sdtet-schedule-date">10:00 PM</div>
 			  	<div class="sdtet-schedule-cultural-village">Festival Closes</div>
 
-			 <!-- Sunday -->
+			    <!-- Sunday -->
 			 	<div class="sdtet-schedule-spacer"></div>
 			  	<div class="sdtet-schedule-title sdtet-text-align-right">Main Stage</div>
 			  	<div class="sdtet-schedule-date">SUNDAY 02.18.18</div>
@@ -112,11 +120,11 @@
 
 			  	<div class="sdtet-schedule-main-stage">Legendary Lion Dance</div>
 			  	<div class="sdtet-schedule-date">12:00 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Tradition Wedding Procession (Đám Cưới Đầu Xuân)</div>
 
 			  	<div class="sdtet-schedule-main-stage">Golden Voice</div>
 			  	<div class="sdtet-schedule-date">1:00 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Kid’s Spot Light (Thi Bé Ngoan Bé Đẹp)</div>
 
 			  	<div class="sdtet-schedule-main-stage">Tu Quyen & Andy Quach</div>
 			  	<div class="sdtet-schedule-date">2:00 PM</div>
@@ -126,9 +134,13 @@
 			  	<div class="sdtet-schedule-date">2:30 PM</div>
 			  	<div class="sdtet-schedule-cultural-village"></div>
 
+			  	<div class="sdtet-schedule-main-stage">Golden Voice</div>
+			  	<div class="sdtet-schedule-date">3:00 PM</div>
+			  	<div class="sdtet-schedule-cultural-village">Story Theatre</div>
+
 			  	<div class="sdtet-schedule-main-stage">Southern Seas Lion Dance</div>
 			  	<div class="sdtet-schedule-date">3:30 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Tet Music</div>
 
 			  	<div class="sdtet-schedule-main-stage">Tu Quyen & Andy Quach</div>
 			  	<div class="sdtet-schedule-date">4:00 PM</div>
@@ -148,7 +160,7 @@
 
 			  	<div class="sdtet-schedule-main-stage">Van Kiep Lion Dance</div>
 			  	<div class="sdtet-schedule-date">6:00 PM</div>
-			  	<div class="sdtet-schedule-cultural-village"></div>
+			  	<div class="sdtet-schedule-cultural-village">Live Music & Traditional singers</div>
 
 			  	<div class="sdtet-schedule-main-stage"></div>
 			  	<div class="sdtet-schedule-date">9:30 PM</div>
