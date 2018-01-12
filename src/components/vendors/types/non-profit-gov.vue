@@ -3,7 +3,7 @@
 	<v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal"  slot="activator">
         <div class="pa-2 sdtet-text-align-center">
             <img src="../../../assets/NonProfitBooth.svg"><br/>
-            Non-Profit or Government
+            Non-Profit or<br>Government
         </div>
     </v-btn>
 

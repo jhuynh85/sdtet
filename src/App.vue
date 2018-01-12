@@ -7,9 +7,9 @@
           <schedule></schedule>
           <entertainment></entertainment>
           <pageant></pageant>
-          <sponsors></sponsors>
           <vendors></vendors>
           <volunteers></volunteers>
+          <sponsors></sponsors>
           <directions></directions>
       </v-content>
     </v-app>
