@@ -23,7 +23,7 @@
             </p>
             <p>We need volunteers to help us run the festival! We have open shifts!</p>
             <p>-VAYA (For more info email us at
-              <a href="mailto:vendor@sdtet.com">vendor@sdtet.com</a>)</p>
+              <a href="mailto:volunteer@sdtet.com ">volunteer@sdtet.com</a>)</p>
           </div>
         </v-flex>
         <v-flex xs12 md6>

@@ -45,12 +45,14 @@
           <h1 class="sdtet-h1-spacer">&nbsp;</h1>
           <h2>Thank you 2018 Sponsors!</h2>
           <v-layout class="sdtet-sponsors-logos-container" row wrap justify-space-around>
-            <img class="ma-3" src="../../assets/sponsors/barona_logo.png">
-            <img class="ma-3" src="../../assets/sponsors/vulcan-materials.png">
-            <img class="ma-3" src="../../assets/sponsors/Crab-Hut-Logo-Main.png">
-            <img class="ma-3" src="../../assets/sponsors/VNTV.png">
-            <img class="ma-3" src="../../assets/sponsors/wells_fargo.png">
-            <img class="ma-3" src="../../assets/sponsors/Seal_of_San_Diego_County,_California.png" style="height: 175px;">
+            <a href="https://www.barona.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/barona_logo.png"></a>
+            <a href="https://www.vulcanmaterials.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/vulcan-materials.png"></a>
+            <a href="http://www.crabhutrestaurant.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/Crab-Hut-Logo-Main.png"></a>
+            <a href="http://www.vietnewstv.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/VNTV.png"></a>
+            <a href="https://www.wellsfargo.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/wells_fargo.png"></a>
+            <a href="https://www.sandiego.gov/" target="_blank"><img class="ma-3" src="../../assets/sponsors/Seal_of_San_Diego_County,_California.png" style="height: 175px;"></a>
+            <a href="https://vietmynewspaper.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/viet-my.png"></a>
+            <a href="http://www.hoiprintandmail.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/logo-houseOfideas.png"></a>
           </v-layout>
         </v-flex>
 
