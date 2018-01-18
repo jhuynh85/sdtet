@@ -7,7 +7,7 @@
           <h1 id="sponsors">Sponsors</h1>
           <p>
             <b>The Sponsorship Application: </b>
-            <a target="_blank" href="download/VAYA_Sponsorship_2018_v8.pdf">download</a>
+            <a target="_blank" href="https://s3-us-west-1.amazonaws.com/sdtet/documents/VAYA_Sponsorship_2018_v8.pdf">download</a>
           </p>
           <p>
             <b>Questions or details?: </b>

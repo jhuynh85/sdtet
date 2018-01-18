@@ -4,12 +4,13 @@
           <div class="pa-2 sdtet-text-align-center">
                 <img src="../../../assets/FoodBooth.svg"><br/>
                 Food and/or<br>Beverage
-            </div>
+          </div>
       </v-btn>
 
       <v-card>
          <v-card-title class="headline">Food and/or Beverage</v-card-title>
          <v-card-text>
+            <p><b>Download:</b> <a target="_blank" href="https://s3-us-west-1.amazonaws.com/sdtet/documents/Tet+2018+Food.pdf">Vendor Food Form</a></p>
             <v-layout wrap>
                <v-flex sm12 md12 lg12>
                     <h4 class="header ">Exclusivity Fee</h4>

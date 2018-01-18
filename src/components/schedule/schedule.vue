@@ -71,7 +71,7 @@
 			  	<div flex="20" class="sdtet-schedule-date">1:05 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Martial Arts</div>
 
-			  	<div flex="40" class="sdtet-schedule-main-stage">TBA</div>
+			  	<div flex="40" class="sdtet-schedule-main-stage">Black Leather Couches</div>
 			  	<div flex="20" class="sdtet-schedule-date">2:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Children’s Programs (Chương Trình Thiếu Nhi)</div>
 

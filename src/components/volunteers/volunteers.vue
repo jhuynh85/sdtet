@@ -43,7 +43,7 @@
             <v-layout row>
               <v-flex md6>
                 <v-btn class="sdtet-button-flat-button sdtet-wrap-text sdtet-volunteers-form-1" flat
-                  color="teal" target="_blank" href="./static/download/Release-of-Liability.pdf">
+                  color="teal" target="_blank" href="https://s3-us-west-1.amazonaws.com/sdtet/documents/Release-of-Liability.pdf">
                   <div class="sdtet-text-align-center">
                     <img src="../../assets/Volunteer.svg" alt="Consent and Release of Liability Form">
                     <br/>
@@ -56,7 +56,7 @@
               <v-flex md6>
                 <div>
                   <v-btn class="sdtet-button-flat-button sdtet-wrap-text sdtet-volunteers-form-2" flat
-                    color="teal" target="_blank" href="./static/download/hours_verification.pdf">
+                    color="teal" target="_blank" href="https://s3-us-west-1.amazonaws.com/sdtet/documents/hours_verification.pdf">
                     <div class="sdtet-text-align-center sdtet-form-text">
                       <img src="../../assets/Volunteer.svg" alt="Hours Verification form">
                       <br/>
