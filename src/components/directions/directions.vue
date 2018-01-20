@@ -34,7 +34,8 @@
               </div>
               Vietnamese American Youth Alliance (VAYA)
               <br>
-              <a href="http://www.vayasd.org">www.vayasd.org</a>
+              <a href="http://www.vayasd.org">www.vayasd.org</a><br/>
+              <a href="mailto:info@sdtet.com">info@sdtet.com</a>
               <br>
               <a href="tel:858-215-4838">858.215.4838</a>
               <br>

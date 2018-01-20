@@ -13,11 +13,11 @@
           <v-layout id="contestants" row wrap>
               <v-flex v-for="contestant in contestants" :key="contestant.id" xs12 sm6 md4 lg4>
                   <v-card height="500px" class="sdtet-entertainment-card">
-                      <v-card-media src="http://placehold.it/300x200" height="200px">
+                      <v-card-media :src="contestant.main_image_link" height="300px" style="background-position: center top">
                       </v-card-media>
                       <v-card-title primary-title>
                         <div>
-                          <h3 class="headline mb-3">{{contestant.number}}. {{contestant.firstname}} {{contestant.lastname}}</h3>
+                          <h3 class="headline mb-3">{{contestant.pageant_number}}. {{contestant.first_name}} {{contestant.last_name}}</h3>
                           <p>{{contestant.school}}</p>
                           <p>{{contestant.bio}}</p>
                         </div>
@@ -34,75 +34,24 @@
 </template>
 
 <script type="text/javascript">
+import axios from 'axios'
+
 export default {
   data () {
     return {
-      contestants: [
-        {
-          firstname: 'Angie',
-          lastname: 'Hoang',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Nikki',
-          lastname: 'Luu',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Julia',
-          lastname: 'Ta',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Elizabeth',
-          lastname: 'Do',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Carolynne ',
-          lastname: 'Vo',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Duyen (Amy)',
-          lastname: 'Vo',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Julia ',
-          lastname: 'Nguyen',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Jacqueline ',
-          lastname: 'Nguyen',
-          number: 0,
-          school: '',
-          bio: ''
-        },
-        {
-          firstname: 'Ca',
-          lastname: 'Pham',
-          number: 0,
-          school: '',
-          bio: ''
-        }
-      ]
+      contestants: []
     }
+  },
+  created () {
+    axios.get('https://cors.now.sh/http://admin.sdtet.com/php_file/get_pageant_contestants.php')
+    .then(response => {
+      // JSON responses are automatically parsed.
+      this.contestants = response.data
+      console.log(response.data)
+    })
+    .catch(e => {
+      console.log(e)
+    })
   }
 }
 </script>

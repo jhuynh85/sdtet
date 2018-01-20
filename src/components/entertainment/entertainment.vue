@@ -32,6 +32,7 @@
                   is the most enjoyable for the youth! It is probably one of the
                   few times a year that they are able to learn about their culture
                   in a fun and exciting way!</div>
+                  <p>Questions? Email: <a href="mailto:kidsspotlight@sdtet.com">kidsspotlight@sdtet.com</a></p>
               </div>
             </v-card-title>
             <v-card-actions>

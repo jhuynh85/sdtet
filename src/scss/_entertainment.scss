@@ -8,6 +8,10 @@
 .sdtet-entertainment-card {
   margin: 10px;
   height: 475px !important;
+
+  .card__media__background{
+	background-position: 0 20% !important;
+  }
 }
 
 @media screen and (max-width: 960px) {
