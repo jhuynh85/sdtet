@@ -53,6 +53,7 @@
             <a href="https://www.sandiego.gov/" target="_blank"><img class="ma-3" src="../../assets/sponsors/Seal_of_San_Diego_County,_California.png" style="height: 175px;"></a>
             <a href="https://vietmynewspaper.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/viet-my.png"></a>
             <a href="http://www.hoiprintandmail.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/logo-houseOfideas.png"></a>
+            <a href="http://www.goldenacorncasino.com/" target="_blank"><img class="ma-3" src="../../assets/sponsors/golden_acorn_casino.png"></a>
           </v-layout>
         </v-flex>
 

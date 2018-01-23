@@ -16,9 +16,13 @@
 			  	<div flex="20" class="sdtet-schedule-date">5:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Festival Opens</div>
 
-			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">TBA</div>
+			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Jenya Carter</div>
 			  	<div flex="20" class="sdtet-schedule-date">5:30 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Tet Music</div>
+
+			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Spoken-Word Artist Mr. Viet Mai</div>
+			  	<div flex="20" class="sdtet-schedule-date">5:45 PM</div>
+			  	<div flex="40" class="sdtet-schedule-cultural-village"></div>
 
 			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">B-Boy Battle</div>
 			  	<div flex="20" class="sdtet-schedule-date">6:00 PM</div>
@@ -67,11 +71,11 @@
 			  	<div flex="20" class="sdtet-schedule-date">1:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Royal Procession (Quân Vương Hoàng Hậu)</div>
 
-			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Hoa Nhiem Lion Dance & Traditional</div>
+			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Hoa Nghiêm Lion Dance & Traditional</div>
 			  	<div flex="20" class="sdtet-schedule-date">1:05 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Martial Arts</div>
 
-			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Black Leather Couches</div>
+			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Black Leather Couch</div>
 			  	<div flex="20" class="sdtet-schedule-date">2:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Children’s Programs (Chương Trình Thiếu Nhi)</div>
 
@@ -126,7 +130,7 @@
 			  	<div flex="20" class="sdtet-schedule-date">1:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Kid’s Spot Light (Thi Bé Ngoan Bé Đẹp)</div>
 
-			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Tu Quyen & Andy Quach</div>
+			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Tú Quyên & Andy Quách</div>
 			  	<div flex="20" class="sdtet-schedule-date">2:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village"></div>
 
@@ -142,7 +146,7 @@
 			  	<div flex="20" class="sdtet-schedule-date">3:30 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Dog Costume Contest</div>
 
-			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Tu Quyen & Andy Quach</div>
+			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Tú Quyên & Andy Quách</div>
 			  	<div flex="20" class="sdtet-schedule-date">4:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village"></div>
 
@@ -150,7 +154,7 @@
 			  	<div flex="20" class="sdtet-schedule-date">4:30 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village"></div>
 
-			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Tu Quyen & Andy Quach</div>
+			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Tú Quyên & Andy Quách</div>
 			  	<div flex="20" class="sdtet-schedule-date">5:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village"></div>
 
@@ -161,10 +165,6 @@
 			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Van Kiep Lion Dance</div>
 			  	<div flex="20" class="sdtet-schedule-date">6:00 PM</div>
 			  	<div flex="40" class="sdtet-schedule-cultural-village">Live Music & Traditional singers</div>
-
-			  	<div flex="40" class="sdtet-schedule-main-stage pa-1"></div>
-			  	<div flex="20" class="sdtet-schedule-date">9:30 PM</div>
-			  	<div flex="40" class="sdtet-schedule-cultural-village"></div>
 
 			  	<div flex="40" class="sdtet-schedule-main-stage pa-1">Festival Closes</div>
 			  	<div flex="20" class="sdtet-schedule-date">10:00 PM</div>
