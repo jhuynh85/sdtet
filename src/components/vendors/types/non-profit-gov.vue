@@ -10,7 +10,9 @@
 	<v-card>
 		<v-card-title class="headline">Non-profit or Government</v-card-title>
 		<v-card-text>
-			<p><b>Download:</b> <a target="_blank" href="https://s3-us-west-1.amazonaws.com/sdtet/documents/Tet+2018+Non-Food.pdf">Vendor Form</a></p>
+			<v-alert outline color="info" icon="info" :value="true">
+              <b>Download:</b> <a target="_blank" href="https://s3-us-west-1.amazonaws.com/sdtet/documents/Tet+2018+Non-Food.pdf">Vendor Form</a>
+            </v-alert>
 			<v-layout>
 				<v-flex sm6 md6 lg6>
 	                <h4 class="header">Electronic Payment</h4>
