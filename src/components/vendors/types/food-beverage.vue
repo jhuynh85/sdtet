@@ -3,7 +3,7 @@
       <v-btn class="sdtet-button-flat-button sdtet-wrap-text" flat color="teal"  slot="activator">
           <div class="pa-2 sdtet-text-align-center">
                 <img src="../../../assets/FoodBooth.svg"><br/>
-                Food and/or<br>Beverage - <b>SOLD OUT</b>
+                Food and/or<br>Beverage - <b style="color: #E3655B">SOLD OUT</b>
           </div>
       </v-btn>
 

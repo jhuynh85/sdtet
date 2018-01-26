@@ -32,7 +32,7 @@
                   is the most enjoyable for the youth! It is probably one of the
                   few times a year that they are able to learn about their culture
                   in a fun and exciting way!</div>
-                  <p><br/>Questions? Email: <a href="mailto:info@sdtet.com">info@sdtet.com</a></p>
+                  <p><br/>Download form: <a href="https://s3-us-west-1.amazonaws.com/sdtet/documents/kid's+spotlight+application+2018.pdf" target="_blank">Application</a></p>
               </div>
             </v-card-title>
             <v-card-actions>
