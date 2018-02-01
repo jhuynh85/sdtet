@@ -16,7 +16,7 @@
               why not bring yourselves to our state and wow us for the new year!</div>
             </v-card-title>
             <v-card-actions>
-              <v-btn href="https://goo.gl/forms/874ic4FuKK4LEUMC3" target="_blank" block outline round color="teal" dark>Sign up!</v-btn>
+              <v-btn v-if="stepUpDanceTimeLeft > 0" href="https://goo.gl/forms/874ic4FuKK4LEUMC3" target="_blank" block outline round color="teal" dark>Sign up! {{stepUpDanceTimeLeft}} days left!</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -89,3 +89,19 @@
     </div>
   </div>
 </template>
+
+<script type="text/javascript">
+  export default{
+    data () {
+      return {
+        stepUpDanceTimeLeft: 0
+      }
+    },
+    created () {
+      var moment = require('moment')
+      var eventdate = moment('2018-02-05')
+      var todaysdate = moment()
+      this.stepUpDanceTimeLeft = eventdate.diff(todaysdate, 'days')
+    }
+  }
+</script>

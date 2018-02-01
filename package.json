@@ -15,6 +15,7 @@
     "axios": "^0.17.1",
     "babel-polyfill": "^6.26.0",
     "es6-promise": "^4.2.2",
+    "moment": "^2.20.1",
     "normalize.scss": "^0.1.0",
     "vue": "^2.5.13",
     "vue-router": "^2.7.0",
