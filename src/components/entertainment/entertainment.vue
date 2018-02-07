@@ -1,5 +1,6 @@
 <template>
-  <div class="sdtet-background-red sdtet-entertainment-container">
+<v-parallax  height="800px" src="/static/images/tet-bg-02.jpg">
+  <div class="sdtet-entertainment-container">
     <div class="sdtet-container">
       <h1 id="entertainment" class="sdtet-text-align-center">Entertainment</h1>
       <p class="sdtet-text-align-center">Would you like to be part of our entertainment program? Apply below!</p>
@@ -13,10 +14,12 @@
             <v-card-title primary-title>
               <h3 class="headline mb-3">Step Up Dance Competition</h3>
 							<div>Do you love dancing? If you have an up and coming team or a new choreography to try,
-              why not bring yourselves to our state and wow us for the new year!</div>
+              why not bring yourselves to our stage and wow us for the new year!</div>
+              <p><br/><b>Sign ups are now closed</b></p>
             </v-card-title>
             <v-card-actions>
               <v-btn v-if="stepUpDanceTimeLeft > 0" href="https://goo.gl/forms/874ic4FuKK4LEUMC3" target="_blank" block outline round color="teal" dark>Sign up! {{stepUpDanceTimeLeft}} days left!</v-btn>
+              
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -88,6 +91,7 @@
 
     </div>
   </div>
+</v-parallax>
 </template>
 
 <script type="text/javascript">
