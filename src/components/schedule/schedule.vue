@@ -14,8 +14,8 @@
                 <div class="sdtet-schedule-divider"></div>
                 
                 <div v-for="event in friday" :key="event.id" layout="row" flex="100">
-                    <div flex="40" class="sdtet-schedule-main-stage pa-1">{{event.english_event}}</div>
-                    <div flex="20" class="sdtet-schedule-date">{{event.start_time}}</div>
+                    <div flex="40" class="sdtet-schedule-main-stage ">{{event.english_event}}</div>
+                    <div flex="20" class="sdtet-schedule-date pa-1">{{event.start_time}}</div>
                     <div flex="40" class="sdtet-schedule-cultural-village">{{event.viet_event}}</div>
                 </div>
                 
@@ -27,8 +27,8 @@
                 <div class="sdtet-schedule-divider"></div>
 
                 <div v-for="event in saturday" :key="event.id" layout="row" flex="100">
-                    <div flex="40" class="sdtet-schedule-main-stage pa-1">{{event.english_event}}</div>
-                    <div flex="20" class="sdtet-schedule-date">{{event.start_time}}</div>
+                    <div flex="40" class="sdtet-schedule-main-stage ">{{event.english_event}}</div>
+                    <div flex="20" class="sdtet-schedule-date pa-1">{{event.start_time}}</div>
                     <div flex="40" class="sdtet-schedule-cultural-village">{{event.viet_event}}</div>
                 </div>
 
@@ -40,8 +40,8 @@
                 <div class="sdtet-schedule-divider"></div>
 
                 <div v-for="event in sunday" :key="event.id" layout="row" flex="100">
-                    <div flex="40" class="sdtet-schedule-main-stage pa-1">{{event.english_event}}</div>
-                    <div flex="20" class="sdtet-schedule-date">{{event.start_time}}</div>
+                    <div flex="40" class="sdtet-schedule-main-stage ">{{event.english_event}}</div>
+                    <div flex="20" class="sdtet-schedule-date pa-1">{{event.start_time}}</div>
                     <div flex="40" class="sdtet-schedule-cultural-village">{{event.viet_event}}</div>
                 </div>
 

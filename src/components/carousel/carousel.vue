@@ -4,8 +4,8 @@
   </v-carousel> -->
   <div class="sdtet-jumbotron" style="background-image: url('./static/carousel/blossoms-banner.png');">
     <div class="sdtet-container">
-      <h1>San Diego Tết Festival 2018<br/>Spring Blossoms<br/>February 16 - 18, 2018</h1>
-      <v-btn href="#entertainment" large round color="teal" dark v-smooth-scroll><v-icon left style="width:20px;">movie creation</v-icon>Join our entertainment!</v-btn>
+      <h1>San Diego Tết Festival 2018<br/>Spring Blossoms - Mira Mesa<br/>February 16 - 18, 2018</h1>
+      <!-- <v-btn href="#entertainment" large round color="teal" dark v-smooth-scroll><v-icon left style="width:20px;">movie creation</v-icon>Join our entertainment!</v-btn> -->
       <v-btn href="#sdtet-vendors-section" large round color="teal" dark v-smooth-scroll><v-icon left style="width:20px;">store</v-icon>Become a vendor!</v-btn>
       <v-btn href="#sdtet-sponsors-section" large round color="teal" dark v-smooth-scroll><v-icon left style="width:20px;">business center</v-icon>Sponsor us!</v-btn>
     </div>
