@@ -33,9 +33,9 @@
               <h1>&nbsp;</h1>
             </div>
             <p>
-              <span class="sdtet-text-red-bold">Signup or view our open shifts by clicking SIGN UP NOW below!</span>
+              <span class="sdtet-text-red-bold">Signups are open again!</span>
             </p>
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdzg7U6v0FZ-BhVJlcWHFHlh7yaQ5F2BUobbzqLF2FqaUMG2g/viewform">
+            <a target="_blank" href="https://drive.google.com/open?id=1FiyUnlUw2ARtTxwVtGI6nfxrOywfI_O6jSSHN_u3np0">
               <v-btn round color="teal" dark>Sign up now!</v-btn>
             </a>
             <br>

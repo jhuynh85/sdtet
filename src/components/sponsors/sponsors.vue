@@ -46,7 +46,7 @@
           <h2>Thank you 2018 Sponsors!</h2>
           <v-layout class="sdtet-sponsors-logos-container" row wrap justify-space-around>
             <a v-for="sponsor in sponsors"  :key="sponsor.id" :href="sponsor.url" target="_blank">
-              <img v-if="sponsor.sponsorthisyear === '1'" class="ma-3" :src="sponsor.logo_image_link">
+              <img class="ma-3" :src="sponsor.logo_image_link">
             </a>
           </v-layout>
         </v-flex>
